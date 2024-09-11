@@ -1,6 +1,6 @@
-export const contractAddress = "0x37896a1407bcA5ED00AcD9064c642fA73B7581DA";
+export const greenBlocksProjectsAddress = "0x37896a1407bcA5ED00AcD9064c642fA73B7581DA";
 
-export const contractAbi = [
+export const greenBlocksProjectsAbi = [
   {
     inputs: [
       {

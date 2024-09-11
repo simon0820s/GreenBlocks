@@ -16,7 +16,7 @@ import {
 import { AlignHorizontalRight, ArrowBack } from "@mui/icons-material";
 import { useRouter } from "next/navigation";
 import { useReadContract } from "wagmi";
-import { contractAbi, contractAddress } from "@/constants/contract";
+import { greenBlocksProjectsAbi, greenBlocksProjectsAddress } from "@/constants/contract";
 
 import { TextField } from '@mui/material';
 import { styled } from '@mui/material/styles';
@@ -135,8 +135,8 @@ const ItemDetail = () => {
   const searchParams = useSearchParams();
   const router = useRouter();
   const result = useReadContract({
-    abi: contractAbi,
-    address: contractAddress,
+    abi: greenBlocksProjectsAbi,
+    address: greenBlocksProjectsAddress,
     functionName: "getProjects",
   });
   const itemId: string | null = searchParams.get("id")
