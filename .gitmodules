@@ -1,0 +1,3 @@
+[submodule "smartContracts/greenBlocksFoundry/lib/forge-std"]
+	path = smartContracts/greenBlocksFoundry/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
